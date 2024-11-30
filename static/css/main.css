@@ -1,0 +1,77 @@
+/* Basic reset for body margins */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Content wrapper */
+.content {
+    width: 80%; /* Controls the width of the content */
+    max-width: 1000px; /* Max width to keep it from getting too wide */
+    margin: 50px auto; /* Centers the content and adds top margin */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.content h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Center the table and set width */
+table {
+    width: 80%; /* Table width set to 80% of its parent */
+    margin: 0 auto; /* Centers the table horizontally */
+    border-collapse: collapse; /* To merge borders */
+    margin-bottom: 30px; /* Adds space below the table */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Light gray hover effect */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
